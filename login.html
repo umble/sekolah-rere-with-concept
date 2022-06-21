@@ -22,9 +22,15 @@
         <div class="d-flex flex-column align-items-center justify-content-center" style="display: flex; flex: 1; width: 100%;">
             <h1 style="width: 100%; max-width: 500px;">Log in</h1>
             <form class="d-flex flex-column align-items-center" style="width: 100%;">
-                <input style="width: 100%; max-width: 500px" type="text" placeholder="Email" />
-                <input style="width: 100%; max-width: 500px" type="password" placeholder="Password" />
-                <button style="width: 100%; max-width: 500px; cursor: pointer;" type="submit">Login</button>
+                <div class="input-float">
+                    <input class="input-field" required type="text" />
+                    <label class="input-label">Email</label>
+                </div>
+                <div class="input-float">
+                    <input class="input-field" required type="password" />
+                    <label class="input-label">Password</label>
+                </div>
+                <button class="btn btn-block btn-primary btn-submit" type="submit">Login</button>
             </form>
             <div style="width: 100%; max-width: 500px; cursor: pointer;">Forgot Password?</div>
             <div style="width: 100%; max-width: 500px;">Don't have an account? <a href="#">Click here</a></div>
